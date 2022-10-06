@@ -31,5 +31,179 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
 }
 
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #3e606b;
+	line-height: 1.25;
+	margin-left: 20px;
+}
+
+h1 {
+		font-size: 52px;
+}
+
+h2 {
+		font-size: 36px;
+}
+	
+h3 {
+		font-size: 18px;
+}
+
+.sirka {	
+	max-width: 1100px;
+	margin: 30px auto;
+}
+
+.section {
+	margin: 80px auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header .logo {
+	width: 170px;
+	margin-left: 20px;
+}
+
+.menu {
+	display: flex;
+	
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.tlacitko {
+	color: white;
+	background-color: #f195b2;
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.tlacitko a:hover {
+	background-color: #d2567d;
+}
+
+.hero {
+	height: 600px;
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;	
+	background-position: center;
+	margin-top: 0;
+}
+
+.hero-text {
+	padding: 80px 0; 
+}
+.hero h1, .hero p {
+	color: white;
+	padding-right: 40%;
+}
+
+.hero p {
+	font-size: 24px;
+}
+
+.vitejte {
+	display: flex;
+	justify-content:center;
+}
+
+.vitejte-levy {
+	padding-right: 30px;
+}
+
+.vitejte-levy .text {
+	margin-bottom: 30px;
+}
+/* Tady jsem chtěla odsadit od textu tlačítko marginem-top, ale nehnulo to s ním, nepřišla jsem na to, proč? Tak jsem to obešla složitěji divem a marginem na text. */
+
+.vitejte-levy .tlacitko {
+	padding: 15px 40px;
+	border-radius: 30px;
+}
+
+.vitejte img {
+	border-radius: 5px;
+}
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+.nabidka h2 {
+	padding-top: 80px;
+	margin: 20px;
+}
+
+.produkty {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 80px;	
+}
+
+ .produkt img {
+	border-radius: 5px 5px 0 0;
+} 
+
+.produkt {
+	background-color: white;
+	box-shadow: 3px 3px 3px rgba(124, 124, 124, 0.1);
+	border-radius: 5px;
+	margin:15px;
+	display:flex;
+	flex-direction: column;
+	max-width: 245px;
+}
+
+.produkt h3, p{
+	margin: 20px;
+}
+
+.produkt h3 {
+	text-align: center;
+}
+
+.pristup {
+	display: flex;
+	justify-content: center;
+}
+
+.pristup-pravy {
+	margin-left: 30px;
+}
+
+.pristup img {
+	border-radius: 5px;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #303339;
+	padding: 30px 0;
+	margin-bottom: 0;
+}
+
+.footer a {
+	text-decoration: 0;
+	color: #ffb9e0;
+}
