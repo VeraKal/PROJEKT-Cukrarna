@@ -59,16 +59,21 @@ h3 {
 
 .sirka {	
 	max-width: 1100px;
-	margin: 30px auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .section {
-	margin: 80px auto;
+	margin: 0 auto;
+	padding: 80px 0;
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
+	padding-top: 30px;
+	margin-bottom: 30px;
+
 }
 
 .header .logo {
@@ -98,7 +103,7 @@ h3 {
 	text-decoration: none;
 }
 
-.tlacitko a:hover {
+.tlacitko:hover {
 	background-color: #d2567d;
 }
 
@@ -110,9 +115,6 @@ h3 {
 	margin-top: 0;
 }
 
-.hero-text {
-	padding: 80px 0; 
-}
 .hero h1, .hero p {
 	color: white;
 	padding-right: 40%;
@@ -134,15 +136,18 @@ h3 {
 .vitejte-levy .text {
 	margin-bottom: 30px;
 }
-/* Tady jsem chtěla odsadit od textu tlačítko marginem-top, ale nehnulo to s ním, nepřišla jsem na to, proč? Tak jsem to obešla složitěji divem a marginem na text. */
+/* Tady jsem chtěla odsadit od textu tlačítko marginem-top, ale nehnulo to s ním, nemůžu vymyslet proč :) Tak jsem to obešla divem a marginem na text. */
 
 .vitejte-levy .tlacitko {
 	padding: 15px 40px;
 	border-radius: 30px;
+	margin-left: 15px;
 }
 
-.vitejte img {
+.cukrarka {
 	border-radius: 5px;
+	max-width: 50%;
+	object-fit: cover;
 }
 
 .nabidka {
@@ -150,17 +155,15 @@ h3 {
 }
 
 .nabidka h2 {
-	padding-top: 80px;
-	margin: 20px;
+	margin: 0 20px 20px 20px;
 }
 
 .produkty {
 	display: flex;
-	flex-wrap: wrap;
-	padding-bottom: 80px;	
+	flex-wrap: wrap;	
 }
 
- .produkt img {
+.produkt img {
 	border-radius: 5px 5px 0 0;
 } 
 
@@ -191,8 +194,10 @@ h3 {
 	margin-left: 30px;
 }
 
-.pristup img {
+.peceni {
 	border-radius: 5px;
+	max-width: 50%;
+	object-fit: cover;
 }
 
 .footer {
@@ -201,9 +206,10 @@ h3 {
 	background-color: #303339;
 	padding: 30px 0;
 	margin-bottom: 0;
+	position:relative;
 }
 
 .footer a {
 	text-decoration: 0;
-	color: #ffb9e0;
+	color: #ffb9e0;	
 }
